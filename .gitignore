@@ -1,0 +1,3 @@
+# Ignore heavy video file to prevent exceeding GitHub's 100MB file limit
+*.mp4
+Revisi Animasi Final.mp4

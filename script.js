@@ -1,5 +1,5 @@
 /* ===================================================================
-   PORTOFOLIO DIGITAL MULTIMEDIA CONTENT CREATOR
+   PORTOFOLIO DIGITAL MULTIMEDIA CONTENT CREATOR - ALFINANISA FAZA CHOLIQ
    Vanilla JavaScript: Mobile Drawer, Smooth Scroll, Modals, Form
    =================================================================== */
 
@@ -80,25 +80,25 @@ document.addEventListener('DOMContentLoaded', () => {
       title: 'Visual Novel "Asal Usul Tradisi Nyadran di Desa Ketingan"',
       content: `
         <h4>1. Ringkasan Proyek</h4>
-        <p>Proyek media interaktif bertema budaya lokal yang mengemas tradisi Nyadran ke dalam format permainan visual novel. Menggabungkan unsur penceritaan, ilustrasi kustom, dan permainan mini edukatif.</p>
+        <p>Proyek media interaktif bertema kearifan lokal yang mengemas tradisi Nyadran di Desa Ketingan ke dalam format visual novel interaktif. Menggabungkan unsur penceritaan budaya, ilustrasi visual orisinal, tombol interaksi pilihan alur, dan mini games edukatif.</p>
 
         <h4>2. Masalah yang Diselesaikan</h4>
-        <p>Menyampaikan cerita tradisi lokal agar tetap menarik dan relevan bagi generasi muda tanpa terasa membosankan layaknya buku teks konvensional.</p>
+        <p>Menyampaikan cerita tradisi lokal agar tetap menarik, interaktif, dan mudah dipahami oleh generasi muda tanpa terasa monoton seperti membaca teks biasa.</p>
 
         <h4>3. Solusi</h4>
-        <p>Mengonversi narasi cerita ke dalam visual novel interaktif yang dilengkapi tombol pilihan dialog, 3 mini games selingan, dan tata suara dinamis.</p>
+        <p>Mengonversi narasi cerita ke dalam visual novel interaktif dengan tombol percabangan dialog, 3 mini games selingan, serta tata musik latar dan efek audio yang membangun atmosfer khas pedesaan.</p>
 
         <h4>4. Fitur Utama</h4>
         <ul>
-          <li>Navigasi percabangan dialog interaktif dengan tombol respon.</li>
+          <li>Navigasi percabangan dialog interaktif dengan tombol respon pilihan alur.</li>
           <li>3 mini games terintegrasi sebagai bagian alur permainan.</li>
           <li>Aset visual orisinal (karakter dan latar belakang suasana desa).</li>
-          <li>Tata suara latar (BGM) dan efek audio (SFX) yang membangun atmosfer.</li>
+          <li>Tata suara terpadu (BGM dan SFX) yang membangun atmosfer cerita.</li>
         </ul>
 
         <h4>5. Teknologi yang Digunakan</h4>
         <ul>
-          <li><strong>Ren'Py:</strong> Game engine pembuatan visual novel dan scripting interaksi.</li>
+          <li><strong>Ren'Py:</strong> Game engine pembuatan visual novel dan scripting logika interaksi.</li>
           <li><strong>Visual Studio Code:</strong> Code editor untuk penulisan script logika dan integrasi mini games.</li>
         </ul>
 
@@ -107,15 +107,19 @@ document.addEventListener('DOMContentLoaded', () => {
           <li>Membuat aset visual latar belakang (background) dan karakter.</li>
           <li>Menyusun baris kode (scripting) di Ren'Py untuk navigasi dan tombol interaktif.</li>
           <li>Mengintegrasikan serta menyempurnakan 3 mini games ke dalam alur cerita.</li>
-          <li>Mencari, memilih, dan menyinkronkan musik latar (BGM) dan efek suara (SFX).</li>
+          <li>Mencari, memilih, dan menyinkronkan musik latar (BGM) dan efek audio (SFX).</li>
         </ul>
 
         <h4>7. Proses Pengerjaan</h4>
-        <p>Dimulai dari perancangan aset grafis karakter dan background, penulisan script interaksi percabangan cerita di Ren'Py, integrasi mekanisme mini games, hingga tahap kurasi audio dan pengujian alur interaktif.</p>
+        <p>Dimulai dari perancangan aset grafis karakter dan background, penulisan script interaksi percabangan cerita di Ren'Py menggunakan VS Code, integrasi mekanisme 3 mini games, hingga tahap kurasi audio dan pengujian alur interaktif.</p>
 
-        <h4>8. Hasil & Tautan</h4>
-        <p>Prototipe game visual novel interaktif yang fungsional dan dapat dimainkan.</p>
-        <p><em>Demo / Repositori:</em> <strong>[Belum diisi]</strong></p>
+        <h4>8. Hasil & Tautan Langsung</h4>
+        <p>Game visual novel interaktif yang fungsional dan dapat dimainkan langsung secara daring.</p>
+        <p><em>Mainkan di platform itch.io:</em> <br>
+          <a href="https://quachisun.itch.io/asal-usul-tradisi-nyadran-di-desa-ketingan" target="_blank" rel="noopener" style="color: #4e3c79; font-weight: 700; text-decoration: underline;">
+            https://quachisun.itch.io/asal-usul-tradisi-nyadran-di-desa-ketingan
+          </a>
+        </p>
       `
     },
     'project-2': {
@@ -149,22 +153,21 @@ document.addEventListener('DOMContentLoaded', () => {
           <li>Harmonisasi dan pemilihan kombinasi palet warna.</li>
         </ul>
 
-        <h4>7. Hasil & Tautan</h4>
-        <p>Desain supergraphic vektor yang dinamis dan siap diaplikasikan sebagai elemen pendukung identitas visual.</p>
-        <p><em>File Desain:</em> <strong>[Belum diisi]</strong></p>
+        <h4>7. Hasil</h4>
+        <p>Tiga (3) variasi karya supergraphic vektor orisinal yang dinamis dan siap diaplikasikan sebagai elemen pendukung identitas visual.</p>
       `
     },
     'project-3': {
       title: 'Aset Visual Animasi 2D "Kolaborasi Tanpa Batas"',
       content: `
         <h4>1. Ringkasan Proyek</h4>
-        <p>Pembuatan aset grafis berbasis vektor sebagai materi utama kebutuhan produksi pada proyek animasi 2D bertema "Kolaborasi Tanpa Batas".</p>
+        <p>Pembuatan materi aset visual grafis berbasis vektor sebagai materi utama kebutuhan produksi pada proyek animasi 2D bertema "Kolaborasi Tanpa Batas".</p>
 
         <h4>2. Masalah yang Diselesaikan</h4>
-        <p>Menyediakan materi visual yang rapi, berformat vektor terstruktur, dan selaras dengan *art style* tim produksi animasi.</p>
+        <p>Menyediakan materi visual yang rapi, berformat vektor terstruktur, dan selaras dengan *art style* tim produksi animasi 2D.</p>
 
         <h4>3. Solusi</h4>
-        <p>Menggambar dan mengekspor 3 aset visual berbasis vektor dengan pemisahan objek yang siap diproses ke tahap penganimasian.</p>
+        <p>Menggambar dan mengekspor 3 aset visual berbasis vektor dengan pemisahan layer objek yang siap diproses ke tahap penganimasian.</p>
 
         <h4>4. Fitur Utama</h4>
         <ul>
@@ -182,9 +185,8 @@ document.addEventListener('DOMContentLoaded', () => {
           <li>Menggambar dan mengolah 3 aset visual berbasis vektor sesuai arahan konsep animasi.</li>
         </ul>
 
-        <h4>7. Hasil & Tautan</h4>
+        <h4>7. Hasil</h4>
         <p>Tiga aset visual vektor yang digunakan langsung dalam kebutuhan produksi animasi 2D.</p>
-        <p><em>Aset Visual:</em> <strong>[Belum diisi]</strong></p>
       `
     }
   };
@@ -193,7 +195,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const modalTitle = document.getElementById('modal-title');
   const modalContent = document.getElementById('modal-content');
   const modalCloseBtn = document.getElementById('modal-close-btn');
-  const modalCloseFooterBtn = document.getElementById('modal-close-footer-btn');
+  const modalFooterActions = document.getElementById('modal-footer-actions');
   const openModalButtons = document.querySelectorAll('.open-modal-btn');
 
   function openProjectModal(projectId) {
@@ -202,6 +204,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
     modalTitle.textContent = data.title;
     modalContent.innerHTML = data.content;
+
+    // Custom footer action per project
+    if (projectId === 'project-1') {
+      modalFooterActions.innerHTML = `
+        <a href="https://quachisun.itch.io/asal-usul-tradisi-nyadran-di-desa-ketingan" target="_blank" rel="noopener" class="btn btn-accent btn-sm">
+          <i class="fa-solid fa-gamepad"></i> Mainkan di itch.io
+        </a>
+        <button class="btn btn-outline btn-sm" id="modal-close-footer-btn">Tutup</button>
+      `;
+    } else {
+      modalFooterActions.innerHTML = `
+        <button class="btn btn-outline btn-sm" id="modal-close-footer-btn">Tutup</button>
+      `;
+    }
+
+    const currentCloseFooterBtn = document.getElementById('modal-close-footer-btn');
+    if (currentCloseFooterBtn) {
+      currentCloseFooterBtn.addEventListener('click', closeProjectModal);
+    }
+
     modalBackdrop.classList.add('active');
     modalBackdrop.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
@@ -221,7 +243,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   if (modalCloseBtn) modalCloseBtn.addEventListener('click', closeProjectModal);
-  if (modalCloseFooterBtn) modalCloseFooterBtn.addEventListener('click', closeProjectModal);
 
   if (modalBackdrop) {
     modalBackdrop.addEventListener('click', (e) => {
@@ -254,13 +275,13 @@ document.addEventListener('DOMContentLoaded', () => {
         submitBtn.innerHTML = originalText;
         submitBtn.disabled = false;
         formFeedback.className = 'form-note success';
-        formFeedback.textContent = 'Terima kasih! Pesan Anda telah terkirim (Demo Mode).';
+        formFeedback.textContent = 'Terima kasih! Pesan Anda telah terkirim.';
         contactForm.reset();
 
         setTimeout(() => {
           formFeedback.textContent = '';
         }, 5000);
-      }, 1000);
+      }, 900);
     });
   }
 });
