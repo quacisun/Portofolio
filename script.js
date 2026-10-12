@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <li><strong>Inkscape:</strong> Peranti lunak pengolah grafik vektor untuk pembentukan dan pewarnaan elemen geometris.</li>
         </ul>
 
-        <h4>6. Kontribusi Saya</h4>
+        <h4>6. Kontribusi Saya (Tugas Mandiri)</h4>
         <ul>
           <li>Perancangan konsep bentuk geometris.</li>
           <li>Penyusunan tata letak (layout) dan perpotongan antar elemen visual.</li>
@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <p>Pembuatan materi aset visual grafis berbasis vektor sebagai materi utama kebutuhan produksi pada proyek animasi 2D bertema "Kolaborasi Tanpa Batas".</p>
 
         <h4>2. Masalah yang Diselesaikan</h4>
-        <p>Menyediakan materi visual yang rapi, berformat vektor terstruktur, dan selaras dengan *art style* tim produksi animasi 2D.</p>
+        <p>Menyediakan materi visual yang rapi, berformat vektor terstruktur, dan selaras dengan art style tim produksi animasi 2D.</p>
 
         <h4>3. Solusi</h4>
         <p>Menggambar dan mengekspor 3 aset visual berbasis vektor dengan pemisahan layer objek yang siap diproses ke tahap penganimasian.</p>
