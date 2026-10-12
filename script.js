@@ -262,26 +262,56 @@ document.addEventListener('DOMContentLoaded', () => {
   const contactForm = document.getElementById('contact-form');
   const formFeedback = document.getElementById('form-feedback');
 
-  if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const submitBtn = contactForm.querySelector('button[type="submit"]');
-      const originalText = submitBtn.innerHTML;
+  
+if (contactForm) {
+  contactForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
 
-      submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Mengirim...';
-      submitBtn.disabled = true;
+    const submitBtn = contactForm.querySelector('button[type="submit"]');
+    const originalText = submitBtn.innerHTML;
 
-      setTimeout(() => {
-        submitBtn.innerHTML = originalText;
-        submitBtn.disabled = false;
+    submitBtn.innerHTML =
+      '<i class="fa-solid fa-spinner fa-spin"></i> Mengirim...';
+    submitBtn.disabled = true;
+
+    formFeedback.className = 'form-note';
+    formFeedback.textContent = '';
+
+    try {
+      const response = await fetch(
+        'https://formspree.io/f/mkjozydk',
+        {
+          method: 'POST',
+          body: new FormData(contactForm),
+          headers: {
+            Accept: 'application/json'
+          }
+        }
+      );
+
+      if (response.ok) {
         formFeedback.className = 'form-note success';
-        formFeedback.textContent = 'Terima kasih! Pesan Anda telah terkirim.';
-        contactForm.reset();
+        formFeedback.textContent =
+          'Terima kasih! Pesan berhasil dikirim.';
 
-        setTimeout(() => {
-          formFeedback.textContent = '';
-        }, 5000);
-      }, 900);
-    });
-  }
-});
+        contactForm.reset();
+      } else {
+        formFeedback.className = 'form-note error';
+        formFeedback.textContent =
+          'Pesan belum berhasil dikirim. Silakan coba lagi.';
+      }
+    } catch (error) {
+      formFeedback.className = 'form-note error';
+      formFeedback.textContent =
+        'Terjadi kendala koneksi. Silakan coba lagi.';
+    } finally {
+      submitBtn.innerHTML = originalText;
+      submitBtn.disabled = false;
+    }
+
+    setTimeout(() => {
+      formFeedback.textContent = '';
+      formFeedback.className = 'form-note';
+    }, 5000);
+  });
+}
